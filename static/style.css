@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 5px 4px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin: 7px;
+    padding: 2px;
+    color: wheat;
+    font-weight: bold;
+    background-color: grey;
+}

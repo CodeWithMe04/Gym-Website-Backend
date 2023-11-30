@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+        include ../static/style.css
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">ContactUs</a></li>
+        </ul>
+    </nav>
+    <h1>
+        | #{content}
+    </h1>
+    <form action="/" id="content" method="POST">
+        <input type="name" name="name" id="name" placeholder="Enter your Name">
+        <input type="age" name="age" id="age" placeholder="Enter your Age">
+        <input type="gender" name="gender" id="gender" placeholder="Enter your Gender (M/F)">
+        <textarea name="address" id="address" cols="40" rows="15">Enter Your Address</textarea>
+        <button class="btn" type="submit">Submit</button>
+    </form>
+</body>
+</html>
